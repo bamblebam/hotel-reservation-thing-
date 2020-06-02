@@ -7,12 +7,15 @@ import {
   Link
 } from "react-router-dom";
 import App from './App';
+import { RoomProvider } from './components/context'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <Router>
-    <App></App>
-  </Router>,
+  <RoomProvider>
+    <Router>
+      <App></App>
+    </Router>
+  </RoomProvider >,
   document.getElementById('root')
 );
 
