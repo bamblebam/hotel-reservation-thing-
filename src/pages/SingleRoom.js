@@ -4,7 +4,6 @@ import Banner from '../components/Banner'
 import { Link } from "react-router-dom";
 import defaultImg2 from '../images/room-1.jpeg'
 import { RoomContext } from '../components/context'
-import Room from '../components/Room'
 import StyledHero from '../components/StyledHero'
 
 export default class SingleRoom extends Component {
